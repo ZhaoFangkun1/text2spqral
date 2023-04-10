@@ -1,0 +1,336 @@
+{
+  "field_presence_infos": {
+    "AggOp": [
+      [
+        true
+      ]
+    ],
+    "Asc": [
+      []
+    ],
+    "Avg": [
+      []
+    ],
+    "ColumnGrounding": [
+      [
+        "int"
+      ]
+    ],
+    "CompArg": [
+      [
+        true,
+        true,
+        true
+      ]
+    ],
+    "CompGrounding": [
+      [
+        "int"
+      ]
+    ],
+    "CompOp": [
+      [
+        true
+      ]
+    ],
+    "CompRef": [
+      [
+        "int"
+      ]
+    ],
+    "Count": [
+      []
+    ],
+    "Desc": [
+      []
+    ],
+    "False": [
+      []
+    ],
+    "FinalStep": [
+      []
+    ],
+    "Ge": [
+      []
+    ],
+    "GroundingProjectArg": [
+      [
+        "int"
+      ]
+    ],
+    "Gt": [
+      []
+    ],
+    "Le": [
+      []
+    ],
+    "Like": [
+      []
+    ],
+    "Lt": [
+      []
+    ],
+    "Max": [
+      []
+    ],
+    "MaxAgg": [
+      []
+    ],
+    "Min": [
+      []
+    ],
+    "MinAgg": [
+      []
+    ],
+    "Ne": [
+      []
+    ],
+    "NextStepAgg": [
+      [
+        true
+      ]
+    ],
+    "NextStepComp": [
+      [
+        true
+      ]
+    ],
+    "NextStepDiscard": [
+      [
+        true
+      ]
+    ],
+    "NextStepGroup": [
+      [
+        true
+      ]
+    ],
+    "NextStepIntersect": [
+      [
+        true
+      ]
+    ],
+    "NextStepProject": [
+      [
+        true
+      ]
+    ],
+    "NextStepSelect": [
+      [
+        true
+      ]
+    ],
+    "NextStepSort": [
+      [
+        true
+      ]
+    ],
+    "NextStepSup": [
+      [
+        true
+      ]
+    ],
+    "NextStepUnion": [
+      [
+        true
+      ]
+    ],
+    "NoColumnGrounding": [
+      []
+    ],
+    "NoOp": [
+      []
+    ],
+    "NoneCompArg": [
+      []
+    ],
+    "NoneProjectArg": [
+      []
+    ],
+    "NoneUnionArg": [
+      []
+    ],
+    "RefArg": [
+      [
+        "int"
+      ]
+    ],
+    "Sum": [
+      []
+    ],
+    "SupOp": [
+      [
+        true
+      ]
+    ],
+    "True": [
+      []
+    ],
+    "UseColumn": [
+      [
+        "int"
+      ]
+    ],
+    "aggregate": [
+      [
+        true,
+        "int",
+        true
+      ]
+    ],
+    "comparative": [
+      [
+        true,
+        "int",
+        "int",
+        true,
+        true
+      ]
+    ],
+    "discard": [
+      [
+        "int",
+        "int",
+        true
+      ]
+    ],
+    "group": [
+      [
+        true,
+        "int",
+        "int",
+        true
+      ]
+    ],
+    "intersection": [
+      [
+        "int",
+        "int",
+        true,
+        true
+      ]
+    ],
+    "project": [
+      [
+        true,
+        true,
+        "int",
+        true
+      ]
+    ],
+    "root": [
+      [
+        true
+      ]
+    ],
+    "select": [
+      [
+        true,
+        "int",
+        true
+      ]
+    ],
+    "sort": [
+      [
+        "int",
+        "int",
+        true,
+        true
+      ]
+    ],
+    "superlative": [
+      [
+        true,
+        "int",
+        "int",
+        true
+      ]
+    ],
+    "union": [
+      [
+        "int",
+        "int",
+        true,
+        true,
+        true
+      ]
+    ]
+  },
+  "primitive_types": [
+    "int"
+  ],
+  "seq_lengths": {},
+  "sum_type_constructors": {
+    "agg_ops": [
+      "Avg",
+      "Count",
+      "MaxAgg",
+      "MinAgg",
+      "Sum"
+    ],
+    "agg_type": [
+      "AggOp",
+      "UseColumn"
+    ],
+    "column_type": [
+      "ColumnGrounding",
+      "NoColumnGrounding"
+    ],
+    "comp_op_type": [
+      "CompOp",
+      "NoOp"
+    ],
+    "comp_val": [
+      "CompGrounding",
+      "CompRef"
+    ],
+    "comparative_3arg_type": [
+      "CompArg",
+      "NoneCompArg"
+    ],
+    "comparative_ops": [
+      "Ge",
+      "Gt",
+      "Le",
+      "Like",
+      "Lt",
+      "Ne"
+    ],
+    "is_distinct": [
+      "False",
+      "True"
+    ],
+    "order": [
+      "Asc",
+      "Desc"
+    ],
+    "project_1arg": [
+      "GroundingProjectArg",
+      "NoneProjectArg"
+    ],
+    "step": [
+      "FinalStep",
+      "NextStepAgg",
+      "NextStepComp",
+      "NextStepDiscard",
+      "NextStepGroup",
+      "NextStepIntersect",
+      "NextStepProject",
+      "NextStepSelect",
+      "NextStepSort",
+      "NextStepSup",
+      "NextStepUnion"
+    ],
+    "superlative_op_type": [
+      "SupOp"
+    ],
+    "superlative_ops": [
+      "Max",
+      "Min"
+    ],
+    "union_3arg": [
+      "NoneUnionArg",
+      "RefArg"
+    ]
+  }
+}
